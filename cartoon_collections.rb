@@ -35,3 +35,9 @@ end
 
 roll_call_dwarves(dwarve)
 summon_captain_planet(planeteer_calls)
+lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
+
+lunch_menu.each do |item|
+  puts item << "!"
+end
+
