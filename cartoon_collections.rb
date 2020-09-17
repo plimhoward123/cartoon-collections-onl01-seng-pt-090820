@@ -38,4 +38,4 @@ summon_captain_planet(planeteer_calls)
 
 quiet_and_loud = ["hi", "HI", "shhh", "WHAT?!"]
 
-puts quiet_and_loud.any? { |loud| loud.upcase? }
+puts quiet_and_loud.any? { |loud| loud.upcase }
