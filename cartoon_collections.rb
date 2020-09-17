@@ -35,8 +35,7 @@ end
 
 roll_call_dwarves(dwarve)
 summon_captain_planet(planeteer_calls)
-lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
 
-lunch_menu.each do |item|
-  puts item << "!"
-end
+quiet_and_loud = ["hi", "HI", "shhh", "WHAT?!"]
+
+puts quiet_and_loud.any? { |loud| loud.uppercase?  }
